@@ -12,13 +12,13 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='extr_actions_jp',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='extract actions (verbs, gerunds, etc) from texts',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
-    url='https://github.com/kennethreitz/samplemod',
+    author='Masahiro Okamoto',
+    author_email='motchyenator@gmail.com',
+    url='https://github.com/mokamotosan/extr_actions_jp',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
