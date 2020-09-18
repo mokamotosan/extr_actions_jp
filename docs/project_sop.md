@@ -1,11 +1,9 @@
-# Initialization of your project
-## Create an repository on your local
+# Create your project directory
+## Get a template
 - clone a tamplete from: https://github.com/navdeep-G/samplemod.git
 - rename it to your own project name
 - remove .git directory
-- initialize it as your own repository.
-- make your first add and commit.
-## Make some changes in your template
+## Make some changes in the template
 see: https://qiita.com/Ultra-grand-child/items/7717f823df5a30c27077
 ### setup.py
 1. name
@@ -13,6 +11,74 @@ see: https://qiita.com/Ultra-grand-child/items/7717f823df5a30c27077
 3. desription
 4. author
 5. author_email
+
+# Create your own enviroment
+cf. quick start for python:
+https://code.visualstudio.com/docs/containers/quickstart-python
+## Preparing
+You'll need the Docker extension:
+https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+### Creating Docker files
+1. opening the Command Pallete (F1 or 'ctrl+shit+P')
+2. using "Docker: Add Docker Files to Workspace"
+3. The command will generate Dockerfile and .dockerignore files.
+4. Create .devcontainer directory and move the Dockerfile into it.
+### Remove files in the .vscode directory
+If you have tasks.json and luanch.json in .vscode directory, remove them.
+
+# Build your container
+## Open folder in container
+ctrl + shift + P: Remote-Container: Open Folder in Container...
+## About source control (git/gitHub)
+- git/gitHubでのソースコントロールはローカルでやる（コンテナないではやらない）
+- ある程度のところでローカルに切り替えて，gitすればよいかな
+## Anaconda (python environment)
+```shell
+apt update
+apt upgrade # you may need -y option
+apt install wget # you may need -y option
+wget https://repo.anaconda.com/archive/Anaconda3-2020.07-Linux-x86_64.sh -O ~/anaconda.sh
+bash ~/anaconda.sh -b -p $HOME/anaconda # The -p option specifies the installation directory
+eval "$(/root/anaconda/bin/conda shell.bash hook)"
+```
+After that, reload your .bashrc
+```shell
+source ~/.bashrc
+```
+### NOTE: install in a silent-mode
+https://docs.anaconda.com/anaconda/install/silent-mode/
+### NOTE: apt/apt-get
+You should apt/apt-get update, at first.
+```shell
+apt update
+apt upgrade
+```
+```shell
+apt-get update
+apt-get upgrade
+```
+### NOTE
+If you get an error saying "InRelease is not valid yet," rebuild your container:
+https://qiita.com/nobuoka/items/1bb8cbb5af7be5259547
+Or, if you've integrated WSL2 with Docker for Windows, fix time on your WSL2:
+https://qiita.com/kazuhiro1982/items/8284dec3f892d0fc715a
+```shell
+# in your WSL
+sudo hwclock -s
+```
+## checkinstall, ccache
+https://qiita.com/SUZUKI_Masaya/items/bd03f39e20a1a8f7f4f6#%E5%BF%85%E8%A6%81%E3%81%AA%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E3%81%AE%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB
+```shell
+apt install checkinstall ccache # You may need -y option
+```
+
+# Initialization of your project
+## Create an repository on your local
+- initialize it as your own repository.
+- make your first add and commit.
+## Make some changes in your template
+see: https://qiita.com/Ultra-grand-child/items/7717f823df5a30c27077
+### setup.py
 6. (if you need) create "read_requirement" function in the setup.py and build it into the section "install_requirements = read_requirement()"
 #### NOTE: install_requirements vs. dockerfile
 If you use a docker container, you can also use requirement.txt instead of the install_requirements. In this SOP, DOCKERFILE must be adopted.
@@ -37,16 +103,6 @@ git remote add origin <URLFROMGITHUB>
 ```
 3. push it: git push origin master
 
-# Create your own enviroment
-cf. quick start for python:
-https://code.visualstudio.com/docs/containers/quickstart-python
-## Preparing
-You'll need the Docker extension:
-https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
-## Creating Docker files
-1. opening the Command Pallete (F1 or 'ctrl+shit+P')
-2. using "Docker: Add Docker Files to Workspace"
-3. The command will generate Dockerfile and .dockerignore files.
 
 ## TIPS
 ### .dockerignore
