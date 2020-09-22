@@ -14,6 +14,8 @@
 * 可能であれば，バグ報告のテンプレートをお使いください．適切なテンプレートをコピーして，必要事項を記入してくださ．以下はテンプレートのURLです：
   * [**一般的なバグ報告のためのテンプレート**](https://github.com/mokamotosan/extr_actions_jp/issues/3)
 
+* 投稿の際は"bug"ラベルを付けるようにしてください．
+
 #### **バグ修正パッチを書いたとき**
 
 * 新たにプルリクエストを送ってください．
@@ -29,13 +31,15 @@
 * 可能であれば，テンプレートをお使いください．以下はテンプレートのURLです：
   * [**一般的な要望・提案のテンプレート**](https://github.com/mokamotosan/extr_actions_jp/issues/4)
 
+* 投稿の際は"enhancement"ラベルを付けるようにしてください．
+
 #### **ソースコードに関する質問**
 
 * Issuesに同様の要望や提案がないかを確かめてください：[Issues](https://github.com/mokamotosan/extr_actions_jp/issues)．
 
 * もし同様の要望や提案がない場合は，あらたにissueを立ち上げてください
 
-* "question"ラベルを付けるようにしてください．
+* 投稿の際は"question"ラベルを付けるようにしてください．
 
 
 ご協力ありがとうございます！ :heart: :heart: :heart:
