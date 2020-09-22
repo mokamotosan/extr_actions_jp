@@ -1,51 +1,41 @@
-_*UNDER CONSTRUCTION*_
+## How to contribute to this project
 
-## How to contribute to Ruby on Rails
+#### **バグをみつけたとき**
 
-#### **Did you find a bug?**
+* **同様のバグがすでに報告されていないか確かめてください．** バグ報告および検索はIssuesで行います．以下のURLからアクセスできます：[Issues](https://github.com/mokamotosan/extr_actions_jp/issues)．
 
-* **Do not open up a GitHub issue if the bug is a security vulnerability
-  in Rails**, and instead to refer to our [security policy](https://rubyonrails.org/security/).
+* もし同様のバグ報告をみつけられなかったときには新しいissueを作成してください．以下のURLから作成できます：[open a new one](https://github.com/mokamotosan/extr_actions_jp/issues/new)．バグ報告の際は**明瞭かつ簡潔なタイトルとその説明**をつけてください．また，以下の情報についても可能な限り報告してください（問題の状況を再現するのに役立ちます）：
+  1. as is: いまどういう状態になっているか ?
+  2. to be: どういう状態が望ましいか ?
+  3. environment: どういう環境で as is の状態になったのか ?
+  4. to reproduce: environment 上でどういう操作をすると as is の状態になるのか ?
+  5. frequency: to reproduce を繰り返したときに何度 as is の状態になるのか ? 
 
-* **Ensure the bug was not already reported** by searching on GitHub under [Issues](https://github.com/rails/rails/issues).
+* 可能であれば，バグ報告のテンプレートをお使いください．適切なテンプレートをコピーして，必要事項を記入してくださ．以下はテンプレートのURLです：
+  * [**一般的なバグ報告のためのテンプレート**](https://github.com/mokamotosan/extr_actions_jp/issues/3)
 
-* If you're unable to find an open issue addressing the problem, [open a new one](https://github.com/rails/rails/issues/new). Be sure to include a **title and clear description**, as much relevant information as possible, and a **code sample** or an **executable test case** demonstrating the expected behavior that is not occurring.
+#### **バグ修正パッチを書いたとき**
 
-* If possible, use the relevant bug report templates to create the issue. Simply copy the content of the appropriate template into a .rb file, make the necessary changes to demonstrate the issue, and **paste the content into the issue description**:
-  * [**Active Record** (models, database) issues](https://github.com/rails/rails/blob/master/guides/bug_report_templates/active_record_master.rb)
-  * [**Action Pack** (controllers, routing) issues](https://github.com/rails/rails/blob/master/guides/bug_report_templates/action_controller_master.rb)
-  * [**Generic template** for other issues](https://github.com/rails/rails/blob/master/guides/bug_report_templates/generic_master.rb)
+* 新たにプルリクエストを送ってください．
 
-* For more detailed information on submitting a bug report and creating an issue, visit our [reporting guidelines](https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#reporting-an-issue).
+* プルリクエストの際は，問題と解決方法を簡潔に記述してください．該当するissue番号がある場合は，そちらも付け加えてください．
 
-#### **Did you write a patch that fixes a bug?**
+#### **新たな機能追加の要望や提案などについて**
 
-* Open a new GitHub pull request with the patch.
+* Issuesに同様の要望や提案がないかを確かめてください：[Issues](https://github.com/mokamotosan/extr_actions_jp/issues)．
 
-* Ensure the PR description clearly describes the problem and solution. Include the relevant issue number if applicable.
+* もし同様の要望や提案がない場合は，あらたにissueを立ち上げてください
 
-* Before submitting, please read the [Contributing to Ruby on Rails](https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html) guide to know more about coding conventions and benchmarks.
+* 可能であれば，テンプレートをお使いください．以下はテンプレートのURLです：
+  * [**一般的な要望・提案のテンプレート**](https://github.com/mokamotosan/extr_actions_jp/issues/4)
 
-#### **Did you fix whitespace, format code, or make a purely cosmetic patch?**
+#### **ソースコードに関する質問**
 
-Changes that are cosmetic in nature and do not add anything substantial to the stability, functionality, or testability of Rails will generally not be accepted (read more about [our rationales behind this decision](https://github.com/rails/rails/pull/13771#issuecomment-32746700)).
+* Issuesに同様の要望や提案がないかを確かめてください：[Issues](https://github.com/mokamotosan/extr_actions_jp/issues)．
 
-#### **Do you intend to add a new feature or change an existing one?**
+* もし同様の要望や提案がない場合は，あらたにissueを立ち上げてください
 
-* Suggest your change in the [rubyonrails-core mailing list](https://discuss.rubyonrails.org/c/rubyonrails-core) and start writing code.
+* "question"ラベルを付けるようにしてください．
 
-* Do not open an issue on GitHub until you have collected positive feedback about the change. GitHub issues are primarily intended for bug reports and fixes.
 
-#### **Do you have questions about the source code?**
-
-* Ask any question about how to use Ruby on Rails in the [rubyonrails-talk mailing list](https://discuss.rubyonrails.org/c/rubyonrails-talk).
-
-#### **Do you want to contribute to the Rails documentation?**
-
-* Please read [Contributing to the Rails Documentation](https://edgeguides.rubyonrails.org/contributing_to_ruby_on_rails.html#contributing-to-the-rails-documentation).
-
-Ruby on Rails is a volunteer effort. We encourage you to pitch in and [join the team](https://contributors.rubyonrails.org)!
-
-Thanks! :heart: :heart: :heart:
-
-Rails Team
+ご協力ありがとうございます！ :heart: :heart: :heart:
