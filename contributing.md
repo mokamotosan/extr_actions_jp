@@ -12,7 +12,7 @@
   5. frequency: to reproduce を繰り返したときに何度 as is の状態になるのか ? 
 
 * 可能であれば，バグ報告のテンプレートをお使いください．適切なテンプレートをコピーして，必要事項を記入してくださ．以下はテンプレートのURLです：
-  * [**一般的なバグ報告のためのテンプレート**](https://github.com/mokamotosan/extr_actions_jp/blob/master/docs/issues_templates/bug_general.md)
+  * [**一般的なバグ報告のためのテンプレート**](https://github.com/mokamotosan/extr_actions_jp/blob/master/.github/ISSUE_TEMPLATE/bug_repot_ja-md.md)
 
 * 投稿の際は"bug"ラベルを付けるようにしてください．
 
@@ -29,7 +29,7 @@
 * もし同様の要望や提案がない場合は，あらたにissueを立ち上げてください
 
 * 可能であれば，テンプレートをお使いください．以下はテンプレートのURLです：
-  * [**一般的な要望・提案のテンプレート**](https://github.com/mokamotosan/extr_actions_jp/blob/master/docs/issues_templates/enhancement.md)
+  * [**一般的な要望・提案のテンプレート**](https://github.com/mokamotosan/extr_actions_jp/blob/master/.github/ISSUE_TEMPLATE/feature_request_ja-md.md)
 
 * 投稿の際は"enhancement"ラベルを付けるようにしてください．
 
