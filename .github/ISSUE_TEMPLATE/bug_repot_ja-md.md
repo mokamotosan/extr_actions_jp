@@ -2,7 +2,7 @@
 name: bug_repot_ja.md
 about: ソフトウェアの改善・問題解決のためにご協力ください
 title: "[BUG]"
-labels: ''
+labels: bug
 assignees: ''
 
 ---

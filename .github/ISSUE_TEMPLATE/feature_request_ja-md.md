@@ -2,7 +2,7 @@
 name: feature_request_ja.md
 about: Suggest an idea for this project
 title: "[FEATURE]"
-labels: ''
+labels: enhancement
 assignees: ''
 
 ---
