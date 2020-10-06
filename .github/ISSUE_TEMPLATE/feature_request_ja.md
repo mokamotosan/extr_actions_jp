@@ -1,5 +1,5 @@
 ---
-name: feature_request_ja
+name: 要望・提案
 about: 機能追加や改善のご要望があれば教えてください
 title: "[FEATURE]"
 labels: enhancement
