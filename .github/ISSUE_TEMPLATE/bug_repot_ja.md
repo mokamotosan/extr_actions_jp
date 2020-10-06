@@ -1,5 +1,5 @@
 ---
-name: bug_repot_ja
+name: バグ報告
 about: ソフトウェアの改善・問題解決のため，バグ報告に協力ください
 title: "[BUG]"
 labels: bug
