@@ -93,4 +93,4 @@ ENV/
 *.lnk
 
 # sample data
-sampledata/
+sampledata/*
