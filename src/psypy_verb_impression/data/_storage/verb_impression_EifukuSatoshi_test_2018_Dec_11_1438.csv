@@ -1,0 +1,6 @@
+verbs,questionnarie,q_id,verb_id,negative_flag,pca_cat,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,rating.response,rating.rt,participant,session,date,expName,frameRate,
+考える,感じの悪い-感じの良い,1,23,0,responsibility,0,0,0,132,2,195.5,EifukuSatoshi,test,2018_Dec_11_1438,verb_impression,60.0016355983661,
+出ない,非社交的な-社交的な,3,45,1,extraversion,0,1,1,266,-2,6.887,EifukuSatoshi,test,2018_Dec_11_1438,verb_impression,60.0016355983661,
+仕事する,積極的な-消極的な,4,21,0,responsibility,0,2,2,123,2,5.567,EifukuSatoshi,test,2018_Dec_11_1438,verb_impression,60.0016355983661,
+連絡する,責任感のある-責任感のない,5,1,0,approachableness,0,3,3,4,2,12.904,EifukuSatoshi,test,2018_Dec_11_1438,verb_impression,60.0016355983661,
+対応しない,感じの悪い-感じの良い,1,34,1,approachableness,0,4,4,198,-1,16.571,EifukuSatoshi,test,2018_Dec_11_1438,verb_impression,60.0016355983661,

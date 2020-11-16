@@ -1,0 +1,4 @@
+verbs,questionnarie,q_id,verb_id,negative_flag,pca_cat,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,rating.response,rating.rt,participant,session,date,expName,frameRate,
+進む,責任感のある-責任感のない,5,12,0,extraversion,0,0,0,70,1,66.917,TakahashiKazumi,test,2018_Dec_11_1559,verb_impression,60.093799628973926,
+聞く,非社交的な-社交的な,3,6,0,approachableness,0,1,1,32,0,7.105,TakahashiKazumi,test,2018_Dec_11_1559,verb_impression,60.093799628973926,
+進まない,感じの悪い-感じの良い,1,42,1,extraversion,0,2,2,246,2,1.953,TakahashiKazumi,test,2018_Dec_11_1559,verb_impression,60.093799628973926,

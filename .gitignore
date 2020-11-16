@@ -88,3 +88,9 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# link
+*.lnk
+
+# sample data
+sampledata/

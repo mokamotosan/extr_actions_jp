@@ -71,7 +71,7 @@ LABEL description="This image is for developing ExtrActions_ja"
 #ADD . /app
 
 # ファイルのコピー
-#COPY ./sample.txt /app/
+#COPY /sampledata/190226【人物評価に関する調査（ローデータ）】ご納品.xlsx /sampledata/
 
 # ボリュームのマウント
 #VOLUME /mnt

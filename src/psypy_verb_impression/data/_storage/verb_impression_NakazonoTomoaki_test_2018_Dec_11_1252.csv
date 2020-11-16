@@ -1,0 +1,5 @@
+verbs,questionnarie,q_id,verb_id,negative_flag,pca_cat,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,rating.response,rating.rt,participant,session,date,expName,frameRate,
+心配する,軽率な-慎重な,6,8,0,approachableness,0,0,0,47,3,35.993,NakazonoTomoaki,test,2018_Dec_11_1252,verb_impression,59.587496104702254,
+貸さない,心の広い-心の狭い,2,39,1,approachableness,0,1,1,229,3,7.079,NakazonoTomoaki,test,2018_Dec_11_1252,verb_impression,59.587496104702254,
+連絡しない,積極的な-消極的な,4,31,1,approachableness,0,2,2,183,2,7.03,NakazonoTomoaki,test,2018_Dec_11_1252,verb_impression,59.587496104702254,
+入らない,責任感のある-責任感のない,5,41,1,extraversion,0,3,3,244,0,6.222,NakazonoTomoaki,test,2018_Dec_11_1252,verb_impression,59.587496104702254,

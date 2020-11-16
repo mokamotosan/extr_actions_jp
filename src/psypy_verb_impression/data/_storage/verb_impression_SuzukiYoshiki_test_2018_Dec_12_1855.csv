@@ -1,0 +1,5 @@
+verbs,questionnarie,q_id,verb_id,negative_flag,pca_cat,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,rating.response,rating.rt,participant,session,date,expName,frameRate,
+評価しない,心の広い-心の狭い,2,50,1,extraversion,0,0,0,295,2,46.88,SuzukiYoshiki,test,2018_Dec_12_1855,verb_impression,60.00945926738354,
+旅行しない,積極的な-消極的な,4,47,1,extraversion,0,1,1,279,2,10.563,SuzukiYoshiki,test,2018_Dec_12_1855,verb_impression,60.00945926738354,
+飲む,軽率な-慎重な,6,13,0,extraversion,0,2,2,77,-1,5.915,SuzukiYoshiki,test,2018_Dec_12_1855,verb_impression,60.00945926738354,
+発言する,積極的な-消極的な,4,14,0,extraversion,0,3,3,81,-2,6.121,SuzukiYoshiki,test,2018_Dec_12_1855,verb_impression,60.00945926738354,
